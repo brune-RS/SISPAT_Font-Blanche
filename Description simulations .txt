@@ -1,0 +1,47 @@
+DESCRIPTION DES DIFFERENTES SIMULATIONS 
+
+______________________________________TEST 1____________________________________
+*01/08/2019 --->01/08/2021
+*maillage de sol de Puechabon 
+* condition initiales (temp humidité) avec profil de sol puechabon (20m)
+et observations à FB  (prise en compte des 80% d'éléments grossiers
+*forçages climatiques de FB 
+*LAI constant 2.7
+*hauteurs de végétation et des mesures gardées par rapport à celles de Puechabon
+*paramètres Fractions de pluie et de runoff reprises dans les fissures = 0%
+*profil racinaire inchangé 
+*pas de fissures qui font une reprise de runoff
+
+
+
+______________________________________TEST 2 ______________________________________
+*01/08/2019 --->01/08/2021
+*maillage de sol retravaillé pour FB (horizons centré sur les sondes) 
+* CI (temp humidité) avec profil de sol puechabon (20m) et observations à FB
+(prise en compte des 80% d'éléments grossiers)
+*forçages climatiques de FB 
+*LAI  ?? toujours constant 2.9
+*hauteurs de végétation: pin 13.5m  chênes 6.5 m (Limousin, 2022) -->13.5 m (fichier LAI)
+*hauteur des mesures à FB ??     haut de la tour 17 m on va mettre ça 
+* plus aucune reprise de runoff dans les fissures 
+*profil racinaire seulement jusquà 2m de prof 
+
+______________________________________TEST 3____________________________________
+Même simulation que pour le Test 1 mais avec un SPIN UP pour éviter une partie des erreurs 
+lors de l'initialisation
+
+*01/08/2019 --->01/08/2021
+*maillage de sol de Puechabon 
+* condition initiales (temp humidité) avec profil de sol puechabon (20m)
+et observations à FB  (prise en compte des 80% d'éléments grossiers)
+----->> à partir des conditions finales du test1 du 01/08/2021
+
+*forçages climatiques de FB 
+*LAI constant 2.7
+*hauteurs de végétation et des mesures gardées par rapport à celles de Puechabon
+*paramètres Fractions de pluie et de runoff reprises dans les fissures = 0%
+*profil racinaire inchangé 
+*pas de fissures qui font une reprise de runoff
+
+fonctionne 
+enlève gros lag de l'initialisation !!
