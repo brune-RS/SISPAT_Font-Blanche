@@ -1,0 +1,16 @@
+
+
+12 Horizons with each its own set of soil parameters
+
+Horizon    node sup   node inf   nbr of nodes    T°+humidity measure
+H1           0          15          16                  NO
+H2          16          44          29                  YES
+H3          45          64          20                  YES
+H4          65          79          15                  YES
+H5          80          94          15                  YES
+H6          95         117          23                  YES
+H7         118         145          28                  NO
+H8         146         186          41                  NO
+H9         187         234          58                  NO
+H11        293         350          58                  NO
+H12        351         408          58                  NO
