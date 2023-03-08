@@ -1,0 +1,20 @@
+simulation test2bis (sol maillage FB et prise ne compte cailloux dans CI)
+________________________________________________________________________________________________________
+paramétrage paramFB test 2 issues de Puech
+teta sat  référence puechabon 
+0.11 0.080 0.060 0.054 0.078 0.072 0.072 0.072 0.072 0.072 0.072 0.072
+teneur en eau residuelle
+0.025 0.025 0.016 0.014 0.024 0.019 0.019 0.019 0.019 0.019 0.019 0.019
+
+valeurs à rentrer dans paramètres pour commencer dans les param du test 2 sans changer les valeurs ref
+ensuite *0.85 pour 15% cailloux 
+0.093 0.068 0.039 0.022 0.027 0.014 0.014 0.014 0.014 0.014 0.014 0.014
+porosité (*1.1)
+0.103 0.075 0.043 0.024 0.030 0.016 0.016 0.016 0.016 0.016 0.016 0.016
+teta res (*0.85, 0.65,0.6,0.4,0.2)
+0.021 0.021 0.010 0.006 0.008 0.004 0.004 0.004 0.004 0.004 0.004 0.004
+
+TEMOIN avec paramètres puechabon
+
+_________________________________________________________________________________________________
+
