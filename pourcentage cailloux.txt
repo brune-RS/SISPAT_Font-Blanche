@@ -31,6 +31,7 @@ porosité
 0.103 0.075 0.084 0.053 0.048 0.029 0.029 0.029 0.029 0.029 0.029 0.029
 tet res rescale 
 0.017 0.021 0.016 0.014 0.009 0.004 0.004 0.004 0.004 0.004 0.004 0.004
-
-
+____________________________________________________________________________________________________________
+test p2
+reprendre les mêmes paramètres que p1 pour les teta sat et res    la on va changer conductivités hydrauliques à saturation Ksat
 
