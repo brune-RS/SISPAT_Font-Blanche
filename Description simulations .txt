@@ -64,3 +64,6 @@ A FAIRE
 * un spin up aussi 
 *faire varier les paramètres de sol 
 *créer un cycle de LAI + caler l'albedo 
+____________________________________________________________________________________________
+______________________________________TESTS P ______________________________________ à partir de 2bis
+simulations où je fais changer les paramètres de sol teta sat, teta res, Ksat puis van Genuchten 
