@@ -1,4 +1,4 @@
-DESCRIPTION DES DIFFERENTES SIMULATIONS 
+DESCRIPTION DES DIFFERENTES SIMULATIONS (penser à le remettre régulièrement sur le Github)
 
 ______________________________________TEST 1____________________________________
 *01/08/2019 --->01/08/2021
@@ -13,21 +13,8 @@ et observations à FB  (prise en compte des 80% d'éléments grossiers
 *pas de fissures qui font une reprise de runoff
 
 
-
-______________________________________TEST 2 ______________________________________
-*01/08/2019 --->01/08/2021
-*maillage de sol retravaillé pour FB (horizons centré sur les sondes) 
-* CI (temp humidité) avec profil de sol puechabon (20m) et observations à FB
-(prise en compte des 80% d'éléments grossiers)
-*forçages climatiques de FB 
-*LAI  ?? toujours constant 2.9
-*hauteurs de végétation: pin 13.5m  chênes 6.5 m (Limousin, 2022) -->13.5 m (fichier LAI)
-*hauteur des mesures à FB ??     haut de la tour 17 m on va mettre ça 
-* plus aucune reprise de runoff dans les fissures 
-*profil racinaire seulement jusquà 2m de prof 
-
 ______________________________________TEST 3____________________________________
-Même simulation que pour le Test 1 mais avec un SPIN UP pour éviter une partie des erreurs 
+Même simulation que pour le Test 1 mais avec un SPIN UP pour s'afranchir d'une partie des erreurs 
 lors de l'initialisation
 
 *01/08/2019 --->01/08/2021
@@ -45,3 +32,35 @@ et observations à FB  (prise en compte des 80% d'éléments grossiers)
 
 fonctionne 
 enlève gros lag de l'initialisation !!
+
+maintenant je connais la démarche pour faire un spin up, à refaire pour le bon maillage de sol 
+
+
+
+______________________________________TEST 2 ______________________________________
+*01/08/2019 --->01/08/2021
+*maillage de sol retravaillé pour FB (horizons centré sur les sondes) 
+* CI (temp humidité) avec profil de sol puechabon (20m) et observations à FB
+(prise en compte de 80% d'éléments grossiers, pas de différences entre les couches)
+*forçages climatiques de FB 
+*LAI  ?? toujours constant 2.9
+*hauteurs de végétation: pin 13.5m  chênes 6.5 m (Limousin, 2022) -->13.5 m (fichier LAI)
+*hauteur des mesures à FB ??     haut de la tour 17 m on va mettre ça 
+* plus aucune reprise de runoff dans les fissures 
+*profil racinaire seulement jusquà 2m de prof 
+
+ATTENTION PAS DE RESCALING !!!!! AVEC OBS ET SORTIES
+dans le test 2Bis
+
+___________________________________TEST 2 BIS________________________________
+j'essaie avec les pourcentages de cailloux indiqués dans les données de sol à FB 
+15,20,35,60,65,80 % selon prof au lieu de 80% de cailloux
+génération d'un nouveau fichier de CI 
+
+et rescaling (cailloux): changement de l'ordre de grandeur des paramètres de sol en m3/m3
+et aussi remettre les sorties en teneur en eau dans sol fin pour pouvoir comparer avec les mesures
+
+A FAIRE 
+* un spin up aussi 
+*faire varier les paramètres de sol 
+*créer un cycle de LAI + caler l'albedo 
