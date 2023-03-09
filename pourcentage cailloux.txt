@@ -17,7 +17,7 @@ teta res (*0.85, 0.65,0.6,0.4,0.2)
 TEMOIN avec paramètres sol  puechabon
 
 _________________________________________________________________________________________________
-ajuster ensuite teta sat et teta res pour mieux coller à chaque horizon  parametrage test 2 bis base
+ajuster ensuite teta sat et teta res pour mieux coller à chaque horizon  à partir du parametrage test 2 bis 
                 test P1  testparam1
 
 tet sat 
@@ -33,5 +33,9 @@ tet res rescale
 0.076 0.076 0.091 0.140 0.07 0.07 0.07 0.07 0.07 0.07 0.07 0.07
 ____________________________________________________________________________________________________________
 test p2
-reprendre les mêmes paramètres que p1 pour les teta sat et res    la on va changer conductivités hydrauliques à saturation Ksat
+reprendre les mêmes paramètres que p1 pour les teta sat et res   
+changer les profondeurs des sorties pour observer ce qu'il se passe entre 50 cm et 2m plus précisément 
+
+__________________________________________________________________________
+ensuite changer conductivités hydrauliques à saturation Ksat
 
