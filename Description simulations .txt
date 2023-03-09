@@ -52,6 +52,8 @@ ______________________________________TEST 2 ___________________________________
 ATTENTION PAS DE RESCALING !!!!! AVEC OBS ET SORTIES
 dans le test 2Bis
 
+MAUVAIS FICHIERS CI A PARTIR DU 2BIS C'EST BON 
+
 ___________________________________TEST 2 BIS________________________________
 j'essaie avec les pourcentages de cailloux indiqués dans les données de sol à FB 
 15,20,35,60,65,80 % selon prof au lieu de 80% de cailloux
