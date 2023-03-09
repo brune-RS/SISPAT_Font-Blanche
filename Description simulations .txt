@@ -50,7 +50,7 @@ ______________________________________TEST 2 ___________________________________
 *profil racinaire seulement jusquà 2m de prof 
 
 ATTENTION PAS DE RESCALING !!!!! AVEC OBS ET SORTIES
-dans le test 2Bis
+fait dans le test 2Bis
 
 MAUVAIS FICHIERS CI A PARTIR DU 2BIS C'EST BON 
 
@@ -62,10 +62,12 @@ génération d'un nouveau fichier de CI
 et rescaling (cailloux): changement de l'ordre de grandeur des paramètres de sol en m3/m3
 et aussi remettre les sorties en teneur en eau dans sol fin pour pouvoir comparer avec les mesures
 
-A FAIRE 
+A FAIRE ENSUITE 
 * un spin up aussi 
 *faire varier les paramètres de sol 
 *créer un cycle de LAI + caler l'albedo 
+*regarder en profondeur ce qu'il se passe 
+*différences entre les mesures des deux fosses
 ____________________________________________________________________________________________
-______________________________________TESTS P ______________________________________ à partir de 2bis
+______________________________________TESTS P ______________________________________ à partir de 2bis :p1,p2
 simulations où je fais changer les paramètres de sol teta sat, teta res, Ksat puis van Genuchten 
