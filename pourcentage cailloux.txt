@@ -36,6 +36,20 @@ test p2
 reprendre les mêmes paramètres que p1 pour les teta sat et res   
 changer les profondeurs des sorties pour observer ce qu'il se passe entre 50 cm et 2m plus précisément 
 
-__________________________________________________________________________
+albedos changés
+albedo vegetation  0.10
+albedo sol nu  entre 0.14 et 0.07 si le sol est sec ou mouillé (0.18*0.85   et 0.25*0.85)
 ensuite changer conductivités hydrauliques à saturation Ksat
+__________________________________________________________________________
+test p3
+profil racinaire inspirée du git hub 
+zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
+Ksat à augmenter 
+5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
+*5
+2.5e-06 2.5e-06 2.e-06 1.75e-06 1.5e-6 1.25e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06
+
+
+
+
 
