@@ -42,17 +42,7 @@ albedo sol nu  entre 0.14 et 0.07 si le sol est sec ou mouillé (0.18*0.85   et 
 ensuite changer conductivités hydrauliques à saturation Ksat
 __________________________________________________________________________
 test p3
-profil racinaire inspirée du git hub 
-zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
-Ksat à augmenter 
-5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
-Ksat*5
-2.5e-06 2.5e-06 2.e-06 1.75e-06 1.5e-6 1.25e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06
-
-*5 trop fort pour la plupart on va changer dans le test 4 
-_____________________________________________________________________________
-test p4
-*à partir de p3  changer quelques hauteurs de teta sat  ( pour coller mieux à la fosse 1)
+*à partir de p2  changer quelques hauteurs de teta sat  ( pour coller mieux à la fosse 1)
 tet sat 
 0.32 0.32 0.46 0.52 0.47 0.68
 tet res
@@ -64,5 +54,15 @@ porosité
 tet res rescale 
 0.085 0.085 0.091 0.140 0.07 0.07 0.07 0.07 0.07 0.07 0.07 0.07
 
-* changer Ksat
-1e-06 1e-06 8.e-07 1.e-07 8.0e-07 7.0e-07 6.e-07 6.e-07 6.e-07 6.e-07 6.e-07 6.e-07
+profil racinaire inspirée du git hub 
+zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
+Ksat à augmenter 
+5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
+Ksat*5
+2.5e-06 2.5e-06 2.e-06 1.75e-06 1.5e-6 1.25e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06
+
+*5 trop fort pour la plupart on va changer dans le test 4 
+_____________________________________________________________________________
+test p4
+* changer Ksat divisé par 2 par rapport à test puech
+2.5e-7 2.5e-7 2e-7 1.75e-7 1.5e-7 1.25e-7 1e-7 1e-7 1e-7 1e-7 1e-7 1e-7
