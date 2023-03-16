@@ -57,18 +57,16 @@ tet res rescale
 
 profil racinaire inspirée du git hub 
 zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
-Ksat à augmenter 
-5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
-Ksat*5
-2.5e-06 2.5e-06 2.e-06 1.75e-06 1.5e-6 1.25e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06
-_____________________________________________________________________________
-REFAIRE LES TESTS AVEC LES TENEURS EN EAU 
 
-test p4
-* changer Ksat divisé par 2 par rapport à test puech
-2.5e-7 2.5e-7 2e-7 1.75e-7 1.5e-7 1.25e-7 1e-7 1e-7 1e-7 1e-7 1e-7 1e-7
+Ksat à augmenter mais on le laisse comme ça 
+5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
+_____________________________________________________________________________
+test p4  comme p3 mais on change albedo 
+* dans les albédos le coefficient d'attenuation des rayonnements
+0.72-->0.5
 
 _______________________________________________________________________________
+CHANGER LES teta sat et res
 test p5
 Ksat *10 par rapport à p2 ( puechabon)
 5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06
