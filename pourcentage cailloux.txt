@@ -1,4 +1,4 @@
-simulation test2bis (sol maillage FB et prise ne compte cailloux dans CI)
+simulation test2bis (sol maillage FB et prise en compte cailloux dans CI)
 ________________________________________________________________________________________________________
 paramétrage paramFB test 2 issues de Puech
 teta sat  référence puechabon 
@@ -6,6 +6,7 @@ teta sat  référence puechabon
 teneur en eau residuelle
 0.025 0.025 0.016 0.014 0.024 0.019 0.019 0.019 0.019 0.019 0.019 0.019
 
+RESCALING
 valeurs à rentrer dans paramètres pour commencer dans les param du test 2 sans changer les valeurs ref
 ensuite *0.85 pour 15% cailloux 
 0.093 0.068 0.039 0.022 0.027 0.014 0.014 0.014 0.014 0.014 0.014 0.014
@@ -44,15 +45,15 @@ __________________________________________________________________________
 test p3
 *à partir de p2  changer quelques hauteurs de teta sat  ( pour coller mieux à la fosse 1)
 tet sat 
-0.32 0.32 0.46 0.52 0.47 0.68
+0.40 0.32 0.46 0.47 0.47 0.47  # profil à peu près homogène ! pas si proche des obs #litière teta ++
 tet res
-0.1 0.1 0,14 0.35 0.2 0.32
+0.1 0.1 0.14 0.15 0.2 0.2  # bien homogène
 tetsat rescalé avec % cailloux 
-0.272 0.272 0.299 0.208 0.164 0.136 0.136 0.136 0.136 0.136 0.136 0.136 
+0.34 0.272 0.299 0.188 0.164 0.094 0.094 0.094 0.094 0.094 0.094 0.094
 porosité
-0.299 0.299 0.329 0.229 0.181 0.150 0.150 0.150 0.150 0.150 0.150 0.150
+0.374 0.299 0.329 0.207 0.181 0.103 0.103 0.103 0.103 0.103 0.103 0.103
 tet res rescale 
-0.085 0.085 0.091 0.140 0.07 0.07 0.07 0.07 0.07 0.07 0.07 0.07
+0.085 0.085 0.091 0.06 0.04 0.04.04 0.04 0.04 0.04 0.04 0.04
 
 profil racinaire inspirée du git hub 
 zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
@@ -60,9 +61,9 @@ Ksat à augmenter
 5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
 Ksat*5
 2.5e-06 2.5e-06 2.e-06 1.75e-06 1.5e-6 1.25e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06 1.0e-06
-
-*5 trop fort pour la plupart on va changer dans le test 4 
 _____________________________________________________________________________
+REFAIRE LES TESTS AVEC LES TENEURS EN EAU 
+
 test p4
 * changer Ksat divisé par 2 par rapport à test puech
 2.5e-7 2.5e-7 2e-7 1.75e-7 1.5e-7 1.25e-7 1e-7 1e-7 1e-7 1e-7 1e-7 1e-7
@@ -76,3 +77,4 @@ _________________________________________________________
 test p6
 Ksat * 50 rapport à p2 ( puechabon)
 2.5e-05 2.5e-05 2.e-05 1.75e-05 1.5e-5 1.25e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05
+
