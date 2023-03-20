@@ -66,13 +66,12 @@ test p4  comme p3 mais on change albedo
 0.72-->0.5
 
 _______________________________________________________________________________
-CHANGER LES teta sat et res
 test p5
 Ksat *10 par rapport à p2 ( puechabon)
 5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06
-
 _________________________________________________________
-test p6
+CHANGER LES teta sat et res
+test p6    CHANGER LES teta sat et res
 Ksat * 50 rapport à p2 ( puechabon)
 2.5e-05 2.5e-05 2.e-05 1.75e-05 1.5e-5 1.25e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05
 
