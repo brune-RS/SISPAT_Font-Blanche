@@ -71,6 +71,11 @@ teneur en eau à saturation de la couche de litière doit être plus importante 
 Ksat *10 par rapport à p2 ( puechabon)
 5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06
 _________________________________________________________
+test p6 pareil que p5 
+mais on change les paramètres de rétention de Van Genuchten
+paramètre n de VG passe de 2.7 à 3.0
+
+
 CHANGER LES teta sat et res
 test p6    CHANGER LES teta sat et res
 Ksat * 50 rapport à p2 ( puechabon)
