@@ -74,3 +74,9 @@ _________________________________________________________
 test p6 pareil que p5 
 mais on change les paramètres de rétention de Van Genuchten  h(teta)
 paramètre n de VG passe de 2.7 à 3.0
+_________________________________________________________
+test p7 pareil que p5 
+mais on diminue de beaucoup le Ksat à la surface pour faire rentrer moins d'eau dans le sol (couche en dessous de la litère )
+refus d'infiltration 
+5.0e-6 5.0e-8 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06
+
