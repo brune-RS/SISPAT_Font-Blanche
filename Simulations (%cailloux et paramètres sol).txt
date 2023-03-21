@@ -1,25 +1,26 @@
-simulation test2bis (sol maillage FB et prise en compte cailloux dans CI)
+SUCCESSION DE SIMULATIONS (PARAMETRES DU SOL)
+à partir de la simulation test2bis (sol avec maillage FB et prise en compte cailloux dans les conditions initiales)
 ________________________________________________________________________________________________________
 paramétrage paramFB test 2 issues de Puech
+valeurs ref (param du test 2)
 teta sat  référence puechabon 
 0.11 0.080 0.060 0.054 0.078 0.072 0.072 0.072 0.072 0.072 0.072 0.072
 teneur en eau residuelle
 0.025 0.025 0.016 0.014 0.024 0.019 0.019 0.019 0.019 0.019 0.019 0.019
 
-RESCALING
-valeurs à rentrer dans paramètres pour commencer dans les param du test 2 sans changer les valeurs ref
+RESCALING AVEC CAILLOUX 
 ensuite *0.85 pour 15% cailloux 
 0.093 0.068 0.039 0.022 0.027 0.014 0.014 0.014 0.014 0.014 0.014 0.014
-porosité (*1.1)
+porosité (teta sat *1.1)
 0.103 0.075 0.043 0.024 0.030 0.016 0.016 0.016 0.016 0.016 0.016 0.016
-teta res (*0.85, 0.65,0.6,0.4,0.2)
+teta res (*0.85, *0.65, *0.6, *0.4, *0.2)
 0.021 0.021 0.010 0.006 0.008 0.004 0.004 0.004 0.004 0.004 0.004 0.004
 
-TEMOIN avec paramètres sol  puechabon
+SIMULATION TEMOIN avec paramètres sol  puechabon
 
 _________________________________________________________________________________________________
-ajuster ensuite teta sat et teta res pour mieux coller à chaque horizon  à partir du parametrage test 2 bis 
-                test P1  testparam1
+ajuster ensuite teta sat et teta res pour mieux coller aux observations pour les horizons. 
+                test P1  testparam1  (  à partir du parametrage test 2 bis)
 
 tet sat 
 0.35 0.35 0.49 0.53 0.5 0.68
@@ -45,39 +46,31 @@ __________________________________________________________________________
 test p3
 *à partir de p2  changer quelques hauteurs de teta sat  ( pour coller mieux à la fosse 1)
 tet sat 
-0.40 0.32 0.46 0.47 0.47 0.47  # profil à peu près homogène ! pas si proche des obs #litière teta ++
+0.40 0.32 0.46 0.47 0.47 0.47  # profil à peu près homogène ! pas si proche des obs 
 tet res
 0.1 0.1 0.14 0.15 0.2 0.2  # bien homogène
 tetsat rescalé avec % cailloux 
 0.34 0.272 0.299 0.188 0.164 0.094 0.094 0.094 0.094 0.094 0.094 0.094
-porosité
+porosité (1.1*TETASAT)
 0.374 0.299 0.329 0.207 0.181 0.103 0.103 0.103 0.103 0.103 0.103 0.103
 tet res rescale 
 0.085 0.085 0.091 0.06 0.04 0.04.04 0.04 0.04 0.04 0.04 0.04
 
-profil racinaire inspirée du git hub 
+profil racinaire: inspiré du git hub de Miquel De Caceres et Nicolas Martin-StPaul à FontBlanche
 zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
 
-Ksat à augmenter mais on le laisse comme ça 
+Ksat (m/s) à augmenter par la suite mais on le laisse comme pour la simulation réference à Puechabon
 5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
 _____________________________________________________________________________
 test p4  comme p3 mais on change albedo 
 * dans les albédos le coefficient d'attenuation des rayonnements
 0.72-->0.5
-
 _______________________________________________________________________________
 test p5
 teneur en eau à saturation de la couche de litière doit être plus importante (0.4--->0.55   et 10% cailloux)
-Ksat *10 par rapport à p2 ( puechabon)
+Ksat *10 par rapport à p2/p3 ( puechabon)
 5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06
 _________________________________________________________
 test p6 pareil que p5 
-mais on change les paramètres de rétention de Van Genuchten
+mais on change les paramètres de rétention de Van Genuchten  h(teta)
 paramètre n de VG passe de 2.7 à 3.0
-
-
-CHANGER LES teta sat et res
-test p6    CHANGER LES teta sat et res
-Ksat * 50 rapport à p2 ( puechabon)
-2.5e-05 2.5e-05 2.e-05 1.75e-05 1.5e-5 1.25e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05 1.0e-05
-
