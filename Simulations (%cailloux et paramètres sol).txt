@@ -67,6 +67,7 @@ test p4  comme p3 mais on change albedo
 
 _______________________________________________________________________________
 test p5
+teneur en eau à saturation de la couche de litière doit être plus importante (0.4--->0.55   et 10% cailloux)
 Ksat *10 par rapport à p2 ( puechabon)
 5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06 2.0e-06
 _________________________________________________________
