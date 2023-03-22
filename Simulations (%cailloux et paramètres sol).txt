@@ -43,7 +43,8 @@ albedo vegetation  0.10
 albedo sol nu  entre 0.14 et 0.07 si le sol est sec ou mouillé (0.18*0.85   et 0.25*0.85)
 ensuite changer conductivités hydrauliques à saturation Ksat
 __________________________________________________________________________
-test p3
+__________________________________________________________________________REF
+test p3 
 *à partir de p2  changer quelques hauteurs de teta sat  ( pour coller mieux à la fosse 1)
 tet sat 
 0.40 0.32 0.46 0.47 0.47 0.47  # profil à peu près homogène ! pas si proche des obs 
