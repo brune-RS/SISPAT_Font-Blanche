@@ -71,3 +71,8 @@ A FAIRE ENSUITE
 ____________________________________________________________________________________________
 ______________________________________TESTS P ______________________________________ à partir de 2bis :p1,p2
 simulations où je fais changer les paramètres de sol teta sat, teta res, Ksat puis van Genuchten 
+
+____________________________________________________________________________________________
+______________________________________TESTS L ______________________________________ à partir des fichiers p 
+refaire des simulations avec un profil de sol jusqu'à 2m
+changer les paramètres de sol teta sat, teta res, Ksat puis van Genuchten 
