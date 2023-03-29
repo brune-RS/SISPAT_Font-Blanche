@@ -112,3 +112,8 @@ paramètres de base Van Genuchten
 hg=-0.3 n=2.7
 premières modifications 
 hg=-4 n=3 
+courbe K(thetha) Brooks and Corey
+beta, paramètre forme de l'exponentielle
+dépend de m et n 
+il était à 8 alors qu'il aurait du être à environ 5,5 6 avec les valeurs de n ref
+avec nouvelles valeurs beta=5
