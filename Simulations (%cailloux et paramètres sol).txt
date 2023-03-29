@@ -107,6 +107,7 @@ ________________________________________________________________________________
 L3 à partir de L2 CHANGEMENT DES PARAMETRES DE RETENTION
 hg point d'inflexion en m
 n et m=1-2/n paaramètres de forme
+(voir sur tableur Excel)
 paramètres de base Van Genuchten
 hg=-0.3 n=2.7
 premières modifications 
