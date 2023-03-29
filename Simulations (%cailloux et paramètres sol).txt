@@ -88,6 +88,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________
 L1
 Profil de sol changé : seulement 2 m de profondeur, 9 horizons 192 noeuds
+le flux G à 5cm simulé était déphasé, dans fichier sispat.vo il était à 9 cm et pas à 5 CORRIGE
+
  80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
  teta sat
  0.40 0.32 0.46 0.47 0.47 0.47
@@ -117,3 +119,5 @@ beta, paramètre forme de l'exponentielle
 dépend de m et n 
 il était à 8 alors qu'il aurait du être à environ 5,5 6 avec les valeurs de n ref
 avec nouvelles valeurs beta=5
+__________________________________________________________________________
+L4
