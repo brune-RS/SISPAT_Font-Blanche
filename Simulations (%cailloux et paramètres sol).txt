@@ -104,5 +104,10 @@ L2 à partir de L1 ref
 changer Ksat de 10-7 m/s à 10-6
 5.0e-06 1.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06
 _________________________________________________________________________________________________________________________________________
-L2 à partir de L2 ref 
-
+L3 à partir de L2 CHANGEMENT DES PARAMETRES DE RETENTION
+hg point d'inflexion en m
+n et m=1-2/n paaramètres de forme
+paramètres de base Van Genuchten
+hg=-0.3 n=2.7
+premières modifications 
+hg=-4 n=3 
