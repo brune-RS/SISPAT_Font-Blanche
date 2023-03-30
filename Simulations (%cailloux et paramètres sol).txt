@@ -89,6 +89,7 @@ ________________________________________________________________________________
 L1
 Profil de sol changé : seulement 2 m de profondeur, 9 horizons 192 noeuds
 le flux G à 5cm simulé était déphasé, dans fichier sispat.vo il était à 9 cm et pas à 5 CORRIGE
+encore des modifs à faire pour les amplitudes de G, de Rn (albedo, conductivité thermique )
 
  80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
  teta sat
@@ -104,7 +105,10 @@ Ksat
 
 le faible Ksat de surface engendre un fort ruisselllement (surtout sur le premier évènement de l'automne), l'ordre de grandeur des humidité est 
 respecté en surface mais plus en profondeur des pics d'humidités observés ne sont pas simulés, l'eau n'arrive pas jusque là, on n'a pas assez fait rentrer d'eau dans le sol
-_________________________________________________________________________________________________________________________________________
+
+
+
+_____________________________________________________________________________________________________________________________
 L2 à partir de L1 ref
 changer Ksat de 10-7 m/s à 10-6
 5.0e-06 1.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06
