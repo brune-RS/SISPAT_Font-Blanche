@@ -101,10 +101,17 @@ teneur en eau résiduelles rescalées
 0.068 0.068 0.065 0.06 0.052 0.032 0.023 0.015 0.015
 Ksat
 5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07
+
+le faible Ksat de surface engendre un fort ruisselllement (surtout sur le premier évènement de l'automne), l'ordre de grandeur des humidité est 
+respecté en surface mais plus en profondeur des pics d'humidités observés ne sont pas simulés, l'eau n'arrive pas jusque là, on n'a pas assez fait rentrer d'eau dans le sol
 _________________________________________________________________________________________________________________________________________
 L2 à partir de L1 ref
 changer Ksat de 10-7 m/s à 10-6
 5.0e-06 1.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06
+
+ici en augmentant la conductivité, l'eau de pluie rentre presque intégralement dans le sol (peu de refus à l'infiltration), 
+mais l'eau circule trop vite et percole, elle n'est pas assez liée au sol, les humidités sont trop faibles. 
+l'eau arrive au fond et simule les pics d'humidités ignorés par la simu précédente.
 _________________________________________________________________________________________________________________________________________
 L3 à partir de L2 CHANGEMENT DES PARAMETRES DE RETENTION
 hg point d'inflexion en m
@@ -119,5 +126,7 @@ beta, paramètre forme de l'exponentielle
 dépend de m et n 
 il était à 8 alors qu'il aurait du être à environ 5,5 6 avec les valeurs de n ref
 avec nouvelles valeurs beta=5
+
+pour empêcher les chutes abruptes de tetha (en surface surtout) les paramètres ont été changés 
 __________________________________________________________________________
 L4
