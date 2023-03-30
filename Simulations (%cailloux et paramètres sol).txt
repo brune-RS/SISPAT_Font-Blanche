@@ -128,5 +128,7 @@ il était à 8 alors qu'il aurait du être à environ 5,5 6 avec les valeurs de 
 avec nouvelles valeurs beta=5
 
 pour empêcher les chutes abruptes de tetha (en surface surtout) les paramètres ont été changés 
+les deux paramètres changés ne jouent pas dans le meme sens et les changements sont trop forts d'un coup
+A REFAIRE
 __________________________________________________________________________
 L4
