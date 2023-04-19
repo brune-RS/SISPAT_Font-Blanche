@@ -149,3 +149,18 @@ APRES REUNION URFM 14 AVRIL
 *changement des proportions de cailloux, plus de cailloux dans la zone des fosses TD, profil de cailloux entre 30 à la surface à 90 % en profondeur 
 *réfléchir à une période de simulation plus longue 
 * travailler en relatif pour les mesures de teneur en eau car pas très fiables 
+
+____________________________________________________________________________________________________________________________________________________
+80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
+15, 35,50,60,70,80,85,90,90 % de cailloux
+ teta sat                       |porosité = teta sat * 1.1
+ 0.55 0.45 0.46 0.47 0.47 0.47  |
+ teta sat rescalé (litière avec 55% de contenu en eau, forte porosité + MO+ pas de caillpoux que des feuilles)   |
+ 0.467 0.292 0.225 0.188 0.141 0.094 0.071 0.047 0.047   |0.51 0.32 0.247 0.207 0.155 0.103 0.078 0.052
+teneur en eau résiduelles
+ 0.08 0.08 0.1 0.15 0.15 0.15 0.15 0.15 0.15
+teneur en eau résiduelles rescalées
+0.068 0.052 0.05 0.06 0.045 0.03 0.023 0.015 0.015
+Ksat
+5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07
+
