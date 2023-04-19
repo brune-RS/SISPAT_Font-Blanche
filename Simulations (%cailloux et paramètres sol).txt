@@ -140,3 +140,12 @@ les deux paramètres changés ne jouent pas dans le meme sens et les changements
 A REFAIRE
 __________________________________________________________________________
 L4
+
+____________________________________________________________________________________________________________________________________________________
+_____________________________________________ TESTS M (profils de sol à 2m) ________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________
+APRES REUNION URFM 14 AVRIL
+*changement des proportions de cailloux, plus de cailloux dans la zone des fosses TD, profil de cailloux entre 30 à la surface à 90 % en profondeur 
+*réfléchir à une période de simulation plus longue 
+* travailler en relatif pour les mesures de teneur en eau car pas très fiables 
