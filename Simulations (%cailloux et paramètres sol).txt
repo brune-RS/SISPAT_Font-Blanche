@@ -89,11 +89,27 @@ ________________________________________________________________________________
 L1
 Profil de sol changé : seulement 2 m de profondeur, 9 horizons 192 noeuds
 le flux G à 5cm simulé était déphasé, dans fichier sispat.vo il était à 9 cm et pas à 5 CORRIGE
+APRES REUNION URFM 14 AVRIL
+*changement des proportions de cailloux, plus de cailloux dans la zone des fosses TD, profil de cailloux entre 30 à la surface à 90 % en profondeur 
+*réfléchir à une période de simulation plus longue 
+* travailler en relatif pour les mesures de teneur en eau car pas très fiables 
 
 
-encore des modifs à faire pour le bilan radiatif de surface Rnet manque 50W/m² (albedo, conductivité thermique, coeff attenuation )
+80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
+15, 35,50,60,70,80,85,90,90 % de cailloux
+ teta sat                       |porosité = teta sat * 1.1
+ 0.55 0.45 0.46 0.47 0.47 0.47  |
+ teta sat rescalé (litière avec 55% de contenu en eau, forte porosité + MO+ pas de caillpoux que des feuilles)   |
+ 0.467 0.292 0.225 0.188 0.141 0.094 0.071 0.047 0.047   |0.51 0.32 0.247 0.207 0.155 0.103 0.078 0.052
+teneur en eau résiduelles
+ 0.08 0.08 0.1 0.15 0.15 0.15 0.15 0.15 0.15
+teneur en eau résiduelles rescalées
+0.068 0.052 0.05 0.06 0.045 0.03 0.023 0.015 0.015
+Ksat
+5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07
 
- 80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
+avant 
+ ((15%,80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
  teta sat
  0.40 0.32 0.46 0.47 0.47 0.47
  teta sat rescalé (litière avec 55% de contenu en eau)
@@ -102,8 +118,7 @@ teneur en eau résiduelles
  0.08 0.08 0.1 0.15 0.15 0.15 0.15 0.15 0.15
 teneur en eau résiduelles rescalées
 0.068 0.068 0.065 0.06 0.052 0.032 0.023 0.015 0.015
-Ksat
-5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07
+
 
 le faible Ksat de surface engendre un fort ruisselllement (surtout sur le premier évènement de l'automne), l'ordre de grandeur des humidité est 
 respecté en surface mais plus en profondeur des pics d'humidités observés ne sont pas simulés, l'eau n'arrive pas jusque là, on n'a pas assez fait rentrer d'eau dans le sol
@@ -145,10 +160,6 @@ ________________________________________________________________________________
 _____________________________________________ TESTS M (profils de sol à 2m) ________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________
-APRES REUNION URFM 14 AVRIL
-*changement des proportions de cailloux, plus de cailloux dans la zone des fosses TD, profil de cailloux entre 30 à la surface à 90 % en profondeur 
-*réfléchir à une période de simulation plus longue 
-* travailler en relatif pour les mesures de teneur en eau car pas très fiables 
 
 ____________________________________________________________________________________________________________________________________________________
 80% de cailloux à 50cm, 85% jusqu'à 1m puis 90% jusqu'à 2m
