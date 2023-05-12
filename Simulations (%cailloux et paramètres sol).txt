@@ -130,11 +130,17 @@ L1C LAI fixe 2.9, albedo veg 10% , coeffs attenuation BL 0.7 visible et thermiqu
 _____________________________________________________________________________________________________________________________
 L2 à partir de L1 ref
 changer Ksat de 10-7 m/s à 10-6
-5.0e-06 1.0e-06 4.e-06 3.5e-06 3.0e-6 2.5e-06 2.0e-06 2.0e-06 2.0e-06
+5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6.5e-06 2.0e-06 2.0e-06 2.0e-06
 
 ici en augmentant la conductivité, l'eau de pluie rentre presque intégralement dans le sol (peu de refus à l'infiltration), 
 mais l'eau circule trop vite et percole, elle n'est pas assez liée au sol, les humidités sont trop faibles. 
 l'eau arrive au fond et simule les pics d'humidités ignorés par la simu précédente.
+
+5.0e-06 5.0e-06 8.e-06 8e-06 5.0e-6 9.5e-07 8.0e-07 2.0e-07 2.0e-07
+________________________________________________________________________
+L2B à partir de L1 ref
+changer Ksat de 10-7 m/s à 10-8
+5.0e-08 5e-08 4.e-08 3.5e-08 3.0e-8 2.5e-08 2.0e-08 2.0e-08 2.0e-08
 _________________________________________________________________________________________________________________________________________
 L3 à partir de L2 CHANGEMENT DES PARAMETRES DE RETENTION
 hg point d'inflexion en m
