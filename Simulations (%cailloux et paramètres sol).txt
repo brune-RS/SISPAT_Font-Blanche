@@ -90,7 +90,7 @@ L1
 Profil de sol changé : seulement 2 m de profondeur, 9 horizons 192 noeuds
 le flux G à 5cm simulé était déphasé, dans fichier sispat.vo il était à 9 cm et pas à 5 CORRIGE
 APRES REUNION URFM 14 AVRIL
-*changement des proportions de cailloux, plus de cailloux dans la zone des fosses TD, profil de cailloux entre 30 à la surface à 90 % en profondeur 
+*changement des proportions de cailloux, plus de cailloux dans la zone des fosses TD, profil de cailloux entre 50 à la surface à 90 % en profondeur 
 *réfléchir à une période de simulation plus longue 
 * travailler en relatif pour les mesures de teneur en eau car pas très fiables 
 
@@ -132,23 +132,27 @@ le faible Ksat de surface engendre un fort ruisselllement (surtout sur le premie
 respecté en surface mais plus en profondeur des pics d'humidités observés ne sont pas simulés, l'eau n'arrive pas jusque là, on n'a pas assez fait rentrer d'eau dans le sol
 
 L1 LAIfixe 2.9, albedo veg 10% , coeffs attenuation BL 0.7 visible et thermique
-L1B LAIfixe 2.7, albedo veg 11% , coeffs attenuation BL 0.5 visible et 0.7 thermique
-L1C LAI fixe 2.9, albedo veg 10% , coeffs attenuation BL 0.7 visible et thermique, calibration conductivité thermique baissé de 0.2 par rapport à L1
+L1B LAIfixe 2.9, albedo veg 11% , coeffs attenuation BL 0.5 visible et 0.6 thermique
+L1C LAI mesuré, albedo veg 11.5% , coeffs attenuation BL 0.5 visible et 0.6thermique, calibration conductivité thermique baissé de 0.2 par rapport à L1
 
 _____________________________________________________________________________________________________________________________
-L2 à partir de L1 ref
+L2 à partir de L1C ref
+Changer conductivité thermique / capacité thermique volumique sèche 
+ordre de grandeur selon type de sol 
+________________________________________________________________________
+L2B à partir de L1 ref
+changer Ksat de 10-7 m/s à 10-8
+5.0e-08 5e-08 4.e-08 3.5e-08 3.0e-8 2.5e-08 2.0e-08 2.0e-08 2.0e-08
 changer Ksat de 10-7 m/s à 10-6
 5.0e-06 5.0e-06 4.e-06 3.5e-06 3.0e-6.5e-06 2.0e-06 2.0e-06 2.0e-06
-
+________________________________________________________________________
+L2C à partir de L1 ref
 ici en augmentant la conductivité, l'eau de pluie rentre presque intégralement dans le sol (peu de refus à l'infiltration), 
 mais l'eau circule trop vite et percole, elle n'est pas assez liée au sol, les humidités sont trop faibles. 
 l'eau arrive au fond et simule les pics d'humidités ignorés par la simu précédente.
 
 5.0e-06 5.0e-06 8.e-06 8e-06 5.0e-6 9.5e-07 8.0e-07 2.0e-07 2.0e-07
-________________________________________________________________________
-L2B à partir de L1 ref
-changer Ksat de 10-7 m/s à 10-8
-5.0e-08 5e-08 4.e-08 3.5e-08 3.0e-8 2.5e-08 2.0e-08 2.0e-08 2.0e-08
+
 _________________________________________________________________________________________________________________________________________
 L3 à partir de L2 CHANGEMENT DES PARAMETRES DE RETENTION
 hg point d'inflexion en m
