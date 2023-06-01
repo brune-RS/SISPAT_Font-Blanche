@@ -137,6 +137,16 @@ L1C LAI mesuré, albedo veg 11.5% , coeffs attenuation BL 0.5 visible et 0.6ther
 
 _____________________________________________________________________________________________________________________________
 L2 à partir de L1C ref
+L1 Capacite thermique volumique seche(J/m3/K):
+1.76e+06 1.83e+06 1.87e+06 1.88e+06 1.83e+06 1.84e+06 1.84e+06 1.84e+06 1.84e+06
+Parametre de calibration de la conductivite thermique (1 si pas de calibr)
+0.7 0.8 0.9 0.9 0.9 0.9 0.9 0.9 0.9
+
+L2
+Parametre de calibration de la conductivite thermique (1 si pas de calibr)
+0.5 0.5 0.4 0.4 0.4 0.4 0.4 0.4 0.4
+
+faire les conversions en conductivité thermiques 
 Changer conductivité thermique / capacité thermique volumique sèche 
 ordre de grandeur selon type de sol 
 ________________________________________________________________________
