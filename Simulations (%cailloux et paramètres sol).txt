@@ -163,26 +163,6 @@ l'eau arrive au fond et simule les pics d'humidités ignorés par la simu préc�
 
 5.0e-06 5.0e-06 8.e-06 8e-06 5.0e-6 9.5e-07 8.0e-07 2.0e-07 2.0e-07
 
-_________________________________________________________________________________________________________________________________________
-L3 à partir de L2 CHANGEMENT DES PARAMETRES DE RETENTION
-hg point d'inflexion en m
-n et m=1-2/n paaramètres de forme
-(voir sur tableur Excel)
-paramètres de base Van Genuchten
-hg=-0.3 n=2.7
-premières modifications 
-hg=-4 n=3 
-courbe K(thetha) Brooks and Corey
-beta, paramètre forme de l'exponentielle
-dépend de m et n 
-il était à 8 alors qu'il aurait du être à environ 5,5 6 avec les valeurs de n ref
-avec nouvelles valeurs beta=5
-
-pour empêcher les chutes abruptes de tetha (en surface surtout) les paramètres ont été changés 
-les deux paramètres changés ne jouent pas dans le meme sens et les changements sont trop forts d'un coup
-A REFAIRE
-__________________________________________________________________________
-L4
 
 ____________________________________________________________________________________________________________________________________________________
 _____________________________________________ TESTS M (profils de sol à 2m) ________________________________________________________________________
