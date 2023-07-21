@@ -157,7 +157,16 @@ ________________________________________________________________________
 L5 "melleure version"  dupliqué pour présiode 2014-2021 en "test_ref " et dans les sorties F 
 
 ________________________________________________________________________
-K version karsts
+K version karsts (20m)
+Pour enlever l'effet de la période d'initialisation des profils à 20 m 
+Spin up 2 fois pour profil initial humidité et température (période 2017-2021) 
+utilisé comme fichier ci d'entrée pour simulations 2014-2021
+
 K0 profil à 20 m avec les racines à 15 m mais sans fissures 
-K1 a b c d e introduction des portion d'eau de ruissellement et pluie reprise  dans les fissures 
+K1 (a b c d e) introduction des portion d'eau de ruissellement et pluie reprise  dans les fissures 
 avec différents pourcentages et profondeurs de fissures
+K1: 5% et 35%
+K1b: 5% et 50%
+K1c: 15% et 35%
+K1d: 5% et 70%
+K1e: 15% et 50%
