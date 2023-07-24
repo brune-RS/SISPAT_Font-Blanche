@@ -177,11 +177,14 @@ MAIS toujours surestimation des évaporation suivant les épisodes de pluie pour
 * paramètres de retention (beta et n )
 -> dynamique des infiltrations sur les chroniques de teneur en eau 
 
+REFERENCE
 K1d  14  2.4
 Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08
 
-K1d1 14 2.4  ( rendre la surface moins facile à pénétrer baisse Ksat 
+Quelques simulations pour tester les changement des quelques paramètres, ensemble et séparément: 
+K1d1 14 2.4  ( rendre la surface moins facile à pénétrer baisse Ksat )
 Ksat 2.0e-06 5e-08 2e-08 9e-07 8.0e-7 5e-07 9.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08
+réduit un peu les pics d'évap pas sufisant 
 
 K1d2 9  2.4 (baisse du beta )
 Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 
