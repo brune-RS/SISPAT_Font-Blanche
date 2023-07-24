@@ -154,7 +154,7 @@ ________________________________________________________________________
 L3 Ksat calé + teta sat teta res +propriétés hydrodynamiques à partir de Puéchabon 
 L4, L5 tests avec n beta hg 
 ________________________________________________________________________
-L5 "melleure version"  dupliqué pour présiode 2014-2021 en "test_ref " et dans les sorties F 
+L5 "meilleure version"  dupliquée pour période 2014-2021 en "test_ref " ( et dans les sorties "F ")
 
 ________________________________________________________________________
 K version karsts (20m)
@@ -168,5 +168,26 @@ avec différents pourcentages et profondeurs de fissures
 K1: 5% et 35%
 K1b: 5% et 50%
 K1c: 15% et 35%
-K1d: 5% et 70%
+K1d: 5% et 70% ----- celle retenue permet un soutien de la transpi pendant les périodes sèches et le stress hydrique 
 K1e: 15% et 50%
+___________________________________________________________________________
+MAIS toujours surestimation des évaporation suivant les épisodes de pluie pour essayer de les réduire 
+* conductivité hydraulique à stauration (surtout proche de la surface)
+-> surveiller la quantité d'eau entrante et les fronts d'infiltration + chroniques de LE 
+* paramètres de retention (beta et n )
+-> dynamique des infiltrations sur les chroniques de teneur en eau 
+
+K1d  14  2.4
+Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08
+
+K1d1 14 2.4  ( rendre la surface moins facile à pénétrer baisse Ksat 
+Ksat 2.0e-06 5e-08 2e-08 9e-07 8.0e-7 5e-07 9.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08
+
+K1d2 9  2.4 (baisse du beta )
+Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 
+
+K1d3  9  2.9 (baisse du beta et augmentation n) )
+Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 
+
+K1d4  14  2.9 (augmentation n)
+Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 
