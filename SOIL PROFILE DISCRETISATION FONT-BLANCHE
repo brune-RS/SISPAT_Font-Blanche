@@ -2,18 +2,19 @@
 
 12 Horizons with each its own set of soil parameters
 
-Horizon    node sup   node inf   nbr of nodes    T°+humidity measure
-H1           0          15          16                  NO
-H2          16          44          29                  YES
-H3          45          64          20                  YES
-H4          65          79          15                  YES
-H5          80          94          15                  YES
-H6          95         117          23                  YES
-H7         118         145          28                  NO
-H8         146         186          41                  NO
-H9         187         234          58                  NO
-H11        293         350          58                  NO
-H12        351         408          58                  NO
+Horizon    node sup   node inf   nbr of nodes    T°+humidity measure  bottom of horizon (m)    % rocks 
+H1           0          15          16                  NO            0.02                      15
+H2          16          44          29                  YES           0.1                      50
+H3          45          64          20                  YES           0.2                      60
+H4          65          79          15                  YES           0.3                      65
+H5          80          94          15                  YES           0.4                      70
+H6          95         117          23                  YES           0.6                      80
+H7         118         145          28                  NO            1                        85
+H8         146         186          41                  NO            2                         90
+H9         187         234          58                  NO            5                        90
+H10        235         292          58                  NO            10                        ...
+H11        293         350          58                  NO            15
+H12        351         408          58                  NO            20
 
 
 Profondeur d'installation de sondes
@@ -22,10 +23,3 @@ Profondeur d'installation de sondes
 25 cm
 35 cm
 50 cm
-
-Proportion de cailloux adoptée :
-0 - 10 : 15 %
-10 - 20 : 35 %
-20 - 30 : 60 %
-30 - 40 : 65 %
-40 - 50 : 80 %
