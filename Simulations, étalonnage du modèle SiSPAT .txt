@@ -201,3 +201,9 @@ réduit ponctuellement bien mieux les pics que le K1d1 pas de meilleur soutien d
 
 k1d6 (baisse de conductivité dès la surfae )
 2.0e-07 9e-08 5e-08 9e-07 8.0e-7 5e-07 9.0e-08 5.0e-08
+amplitude des pics d'évap encore réduite + meilleur soutien pendant l'été quasiment au niveau des obs pendant certaines années
+encore amelioration des scores LE H 
+
+Changer le coefficient d'atténuation dans l'IR donner plus ou moins de poids à la végétation, chaffe plus ou moins 
+KA1 sur la base de K1d6  a= 0.4  au lieu de 0.6
+KA2  a=0.8
