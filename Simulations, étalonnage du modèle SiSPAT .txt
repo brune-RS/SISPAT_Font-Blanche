@@ -156,6 +156,8 @@ L4, L5 tests avec n beta hg
 ________________________________________________________________________
 L5 "meilleure version"  dupliquée pour période 2014-2021 en "test_ref " ( et dans les sorties "F ")
 
+____________________________________________________________________________________________________________________________________________________
+__________________________KARSTS (K)__________________________________________________________________________________________________________________________
 ________________________________________________________________________
 K version karsts (20m)
 Pour enlever l'effet de la période d'initialisation des profils à 20 m 
@@ -191,6 +193,7 @@ Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08
 
 K1d3  9  2.9 (baisse du beta et augmentation n) )
 Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 
+-> baisse du beta pas très effcace (même augmente un peu l'évap) et la pente de recession des humidités trop abrupte 
 
 K1d4  14  2.9 (augmentation n)
 Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 
@@ -203,6 +206,7 @@ k1d6 (baisse de conductivité dès la surfae )
 2.0e-07 9e-08 5e-08 9e-07 8.0e-7 5e-07 9.0e-08 5.0e-08
 amplitude des pics d'évap encore réduite + meilleur soutien pendant l'été quasiment au niveau des obs pendant certaines années
 encore amelioration des scores LE H 
+----------------------------------> MEILLEUR PARAMETRAGE ACTUELLEMENT MAIS ENCORE A AFFINER (cohérence du profil, beta à peine réduit, n vers 2.7 .. )
 
 Changer le coefficient d'atténuation dans l'IR donner plus ou moins de poids à la végétation, chaffe plus ou moins 
 KA1 sur la base de K1d6  a= 0.4  au lieu de 0.6
