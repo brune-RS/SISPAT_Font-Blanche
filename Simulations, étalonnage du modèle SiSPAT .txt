@@ -180,7 +180,7 @@ MAIS toujours surestimation des évaporation suivant les épisodes de pluie pour
 -> dynamique des infiltrations sur les chroniques de teneur en eau 
 
 REFERENCE
-K1d  14  2.4
+K1d  14  2.4 (\beta et n)
 Ksat 2.0e-06 6e-07 2e-07 2e-07 4.0e-7 4e-07 9.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08 5.0e-08
 
 Quelques simulations pour tester les changement des quelques paramètres, ensemble et séparément: 
