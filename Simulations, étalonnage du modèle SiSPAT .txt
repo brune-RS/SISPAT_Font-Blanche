@@ -61,7 +61,8 @@ profil racinaire: inspiré du git hub de Miquel De Caceres et Nicolas Martin-StP
 zri2cm zrm1 20 zrm2 35 zrpm 60 pmr=0.35  zrt 2m FDR max inchangée (conversion à faire )
 
 Ksat (m/s) à augmenter par la suite mais on le laisse comme pour la simulation réference à Puechabon
-5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (origine)
+5.0e-07 5.0e-07 4.e-07 3.5e-07 3.0e-7 2.5e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 2.0e-07 (orig6
+KA2  a=0.8ine)
 _____________________________________________________________________________
 test p4  comme p3 mais on change albedo 
 * dans les albédos le coefficient d'attenuation des rayonnements
@@ -206,8 +207,8 @@ k1d6 (baisse de conductivité dès la surfae )
 2.0e-07 9e-08 5e-08 9e-07 8.0e-7 5e-07 9.0e-08 5.0e-08
 amplitude des pics d'évap encore réduite + meilleur soutien pendant l'été quasiment au niveau des obs pendant certaines années
 encore amelioration des scores LE H 
-----------------------------------> MEILLEUR PARAMETRAGE ACTUELLEMENT MAIS ENCORE A AFFINER (cohérence du profil, beta à peine réduit, n vers 2.7 .. )
+-----------------> MEILLEUR PARAMETRAGE ACTUELLEMENT MAIS ENCORE A AFFINER (cohérence du profil, rétention proche surface,beta à peine réduit, n vers 2.7 .. )
 
-Changer le coefficient d'atténuation dans l'IR donner plus ou moins de poids à la végétation, chaffe plus ou moins 
+Changer le coefficient d'atténuation dans l'IR donner plus ou moins de poids à la végétation, chauffe plus ou moins 
 KA1 sur la base de K1d6  a= 0.4  au lieu de 0.6
 KA2  a=0.8
