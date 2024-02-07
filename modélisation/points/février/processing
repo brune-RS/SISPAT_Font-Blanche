@@ -1,7 +1,17 @@
 DONNEES MANQUANTES ET PROCESSUING DES DONNEES DE EDDYFLUX
+
 hard filter (procédure ICOS)
 des seuils sup et inf pour plusieurs variables
 + filtre pendant les moment ou il y a de la pluie
+entre 10 et 820 trous par mois
+1200 j complets sur 2500
++dans le script filtre pour que LE et H ne soient pas <-50
 
 soft filter (procédure Olivier Marloie)
 rain filter 
++dans le script filtre pour que LE et H ne soient pas <-50
+filtre de footprint filter   si =1  met des données manquantes pour LE, H,sf
+plusieurs flags pour signaler des portentiels problèmes (spike detection)
+entre 220 et 870 trous par mois 
+50j complets 400 avec - de 5 trous
+800j avec + de 20 trous
