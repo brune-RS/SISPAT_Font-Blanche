@@ -1,1 +1,7 @@
 DONNEES MANQUANTES ET PROCESSUING DES DONNEES DE EDDYFLUX
+hard filter (procédure ICOS)
+des seuils sup et inf pour plusieurs variables
++ filtre pendant les moment ou il y a de la pluie
+
+soft filter (procédure Olivier Marloie)
+rain filter 
