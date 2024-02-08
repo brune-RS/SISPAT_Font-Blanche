@@ -10,8 +10,9 @@ entre 10 et 820 trous par mois
 soft filter (procédure Olivier Marloie)
 rain filter 
 +dans le script filtre pour que LE et H ne soient pas <-50
-filtre de footprint filter   si =1  met des données manquantes pour LE, H,sf
-plusieurs flags pour signaler des portentiels problèmes (spike detection)
+filtre de footprint filter   si =1  met des données manquantes pour LE, H,sf (beaucoup des valeurs enlevées par ce filtre)
+plusieurs flags pour signaler des portentiels problèmes (spike detection,Ustar, W, ITC)
+spike detection flag quand trop grande variation entre 2 mesures à 30 min -> a l'air cohérent    arrive peu souvent
 entre 220 et 870 trous par mois 
 50j complets 400 avec - de 5 trous
 800j avec + de 20 trous
