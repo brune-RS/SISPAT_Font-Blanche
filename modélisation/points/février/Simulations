@@ -10,7 +10,7 @@ Pour enlever l'effet de la période d'initialisation des profils à 20 m
 Spin up 2 fois pour profil initial humidité et température (période 2017-2021) 
 utilisé comme fichier ci d'entrée pour simulations 2014-2021
 
-K0 profil à 20 m avec les racines à 15 m mais sans fissures (même paramétrage que "test ref")
+K0 profil à 20 m avec les racines à 15 m mais sans fissures (même paramétrage que "test ref") --->notre référence 
 K1 (a b c d e) introduction des portion d'eau de ruissellement et pluie reprise  dans les fissures 
 avec différents pourcentages et profondeurs de fissures
 K1: 5% et 35%
