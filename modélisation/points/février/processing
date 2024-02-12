@@ -1,13 +1,13 @@
 DONNEES MANQUANTES ET PROCESSUING DES DONNEES DE EDDYFLUX
 
-hard filter (procédure ICOS)
+___hard filter (procédure ICOS)
 des seuils sup et inf pour plusieurs variables
 + filtre pendant les moment ou il y a de la pluie
 entre 10 et 820 trous par mois
 1200 j complets sur 2500
 +dans le script filtre pour que LE et H ne soient pas <-50
 
-soft filter (procédure Olivier Marloie)
+____soft filter (procédure Olivier Marloie)
 rain filter 
 +dans le script filtre pour que LE et H ne soient pas <-50
 filtre de footprint filter   si =0  met des données manquantes pour LE, H,sf (beaucoup des valeurs enlevées par ce filtre)
@@ -17,6 +17,14 @@ spike detection flag quand trop grande variation entre 2 mesures à 30 min -> a 
 entre 220 et 870 trous par mois 
 50j complets 400 avec - de 5 trous
 800j avec + de 20 trous
+
+___Dans mon script____
+choix du filtre pour remplacer des valeurs par des NaN
+* premier essai 
+LE et H hf   et on rajoute conditions
+spike flag : on met un NaN
+TEST_SSITC=2 : NaN
+
 
 
 voir pptx données manquantes
