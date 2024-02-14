@@ -1,0 +1,9 @@
+SISPAT
+
+quand on modifie Sispat_vo.f et Subrsispat_vo.f il faut recompiler
+---- make -f makecompSis_vo
+puis régler les erreurs eventuelles
+crée l'executable SISPAT et les .o
+
+Ensuite on peut faire  tourner les simulations 
+./Sispat<../param/test_K1d6.dat
